@@ -16,7 +16,7 @@ public class Test_steps {
 	static WebDriver driver;
 	@Given("User is on Home Page")
 	public void user_is_on_Home_Page() {
-		System.setProperty("webdriver.chrome.driver", "D:\\cucumber files\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chrome driver\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
